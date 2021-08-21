@@ -13,6 +13,7 @@
     --main-black-color: #142a2b;
     --main-almond-color: #e1cdb5;
     --main-pink-color: #a26769;
+<<<<<<< Updated upstream
 }
 
 .header-image {
@@ -22,3 +23,10 @@
 img {
     max-width: 400px;
 }
+=======
+  }
+
+  body {
+    text-align: center;
+  }
+>>>>>>> Stashed changes
