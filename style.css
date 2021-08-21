@@ -1,16 +1,24 @@
 @font-face {
     font-family: lovera;
     src: url("/fonts/Lovera.woff2");
-  }
-  
-  @font-face {
-    font-family : houstiq;
+}
+
+@font-face {
+    font-family: houstiq;
     src: url("/fonts/Houstiq/Web-TT/Houstiq.woff")
-  }
-  
-  :root {
+}
+
+ :root {
     --main-red-color: #863b1d;
     --main-black-color: #142a2b;
     --main-almond-color: #e1cdb5;
     --main-pink-color: #a26769;
-  }
+}
+
+.header-image {
+    max-width: 600px
+}
+
+img {
+    max-width: 400px;
+}
