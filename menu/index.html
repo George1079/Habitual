@@ -24,8 +24,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/about-us">About us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="/menu">Menu</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="/index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="/menu/index.html">Food</a>
+                      <a class="dropdown-item" href="/menu/drinks/drinks.html">Drinks</a>
+                    </ul>
+              </li>
                 </li>
             </ul>
         </nav>
@@ -37,7 +42,7 @@
             <p>On house-made English Muffins (whilst stock last) or Sourdough</p>
         </div>
         <div class="container">
-            <div class="row row-cols-2 row-cols-lg-10 g-2 g-lg-3">
+            <div class="row row-cols-3 row-cols-lg-10 g-3 g-lg-3">
               <div class="col">
                 <div class="p-3 border bg-light"><div class="card">
                     <img src="../resources/images/Cakes.jfif" class="card-img-top" class="img-fluid" alt="Ham & Cheese">
@@ -119,11 +124,11 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-center p-5"> 
+          <div class="d-flex justify-content-center p-1"> 
             <h1><u>Bakery & Specials</u></h1>
           </div>
 
-            <div class="card">
+            <div class="card-sm p-5">
                 <img src="../resources/images/Cakes.jfif" class="card-img-top" class="img-thumbnail" alt="Bakery & Specials">
                 <div class="card-body">
                     <h5 class="card-title">Bakery & Specials</h5>
@@ -134,16 +139,7 @@
     </div>
 
     <footer>
-            <div class="d-flex justify-content-center p-5">
-                <nav aria-label="Page navigation">
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                        <li class="page-item"><a class="page-link" href="/menu/index.html">1</a></li>
-                        <li class="page-item"><a class="page-link" href="/menu/drinks/drinks.html">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                    </ul>
-                </nav>
-            </div>
+            
         </footer>
 </body>
 
