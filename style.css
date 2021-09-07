@@ -56,7 +56,7 @@ body {
 
 .carousel-img {
     width: 100%;
-    height: 100vh !important;
+    height: auto !important;
     object-fit: cover;
 }
 
@@ -90,12 +90,23 @@ padding-bottom: 0% !important;
 
 .h3, h3 {
     font-size: 25px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .about-us {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+time {
+    font-weight: bold;
+}
+
+.p {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
